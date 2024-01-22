@@ -8,14 +8,19 @@
     ];
 
     let benefits = [
-        {name:'a selft taught developer', 
-        description:'I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.'
+        {name:'a software engineering Student', 
+        description:'I taught myself to code using free online resources and absolutely fell in love with the' +  
+        'creativity and problem solving that is involved in developing and engineering innovative new softwares' +
+         ". That's why i decided to study Software Engineering.",
         },
-        {name:'a product design & UX fanatic',
-         description: "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+        {name:'a learning enthusiast',
+         description: 'Starting off with HTML & CSS, JavaScript and evolving my knowledge base to include JavaScript' + 
+         'frameworks, backend programming, design, cloud services and much much more.',
         },
         {name:'an excellent communicator', 
-        description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+        description: "Communication is key and it's a paramount value of mine. I believe in transparency"+
+        "and constructive communication above all else. This helps me develop deep relationships and" +
+         "ensures my effectiveness and productivity in any work space with any team.",
         },
     ]
 </script>
@@ -44,7 +49,7 @@
         class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative
             overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950
             cursor-pointer"
-        href="#"
+        href="https://www.linkedin.com/in/benjamin-osalira-2012162b0/"
         target="_blank"
       >
         <div
@@ -69,10 +74,10 @@
         A few of my creative endeavors.
       </h6>
       <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
-        Curious to <span class="poppins text-violet-400">see</span> my work?
+        <!-- Curious to <span class="poppins text-violet-400">see</span> my work? -->
       </h3>
     </div>
-    <a
+    <!-- <a
       href="https://www.npmjs.com/"
       target="_blank"
       class="mx-auto px-4 py-2 rounded-md border border-solid border-white
@@ -80,26 +85,28 @@
     >
       <i class="fa-regular fa-circle-play" />
       <p>Wacth the videos</p>
-    </a>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={steps[0]}>
+    </a> -->
+    <!-- "lg:grid-cols-3" is the class that's needed to have three projects side by side -->
+    <div class="grid grid-cols-1 lg:grid-cols gap-12 lg:gap-10">
+      <!-- <Step step={steps[0]}>
         <p>
           Smoljames stor is a merchandising store created innerWidth
           <strong class="text-violet-400"
             >Next.js Commerce.js Stripe & Node.js + Express.js!</strong
           > Commerce.js is a product CMS and Stripe is used for all transaction handling.
         </p>
-      </Step>
+      </Step> -->
       <Step step={steps[1]}>
         <p>
-          Ultinate Todos is a Full Stack
+          PlanItRight is a Full Stack
           <strong class="text-violet-400"
-            >React.js Node.js + Express.js EJS !</strong
-          > CRUD application that allows a user to login, manage a tidy and efficacious
-          Todos list, and persist this information across all devices.
+            >Node.js + Express.js, EJS, MongoDB, JavaScript, CSS, and HTML!</strong
+          > featuring robust user authentication using Passport for Local OAuth and Google OAuth. 
+            It offers an intuitive interface for users to manage tasks efficiently, ensuring data 
+           persistence and real-time interaction. 
         </p>
       </Step>
-      <Step step={steps[2]}>
+      <!-- <Step step={steps[2]}>
         <p>
           The pokeddex is <strong class="text-violet-400"
             >svelte & tailwindCss</strong
@@ -112,7 +119,7 @@
             >Next.js Commerce.js Stripe & Node.js + Express.js!</strong
           > Commerce.js is a product CMS and Stripe is used for all transaction handling.
         </p>
-      </Step>
+      </Step> -->
     </div>
   </section>
   <section
@@ -149,8 +156,8 @@
       {/each}
     </div>
     <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-violet-400 poppins">Complete</span> Package</h5>
-    <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
-        <table class="bg-white text-slate-700 rounded text-center">
+    <!-- <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"> -->
+        <!-- <table class="bg-white text-slate-700 rounded text-center">
             <thead class="border-b border-solid border-slate-200">
                 <tr class="">
                     <th></th>
@@ -202,11 +209,11 @@
                     <td><i class="fa-solid fa-check text-green-500"></i></td>
                 </tr>
             </tbody>
-        </table>
-    </div>
+        </table> -->
+    <!-- </div> -->
     <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
         <p>Scroll to see more &rarr;</p>
     </div>
-    <p class="mx-auto">So why not invest?</p>
+    <!-- vf -->
   </section>
 </main>
