@@ -2,8 +2,10 @@
   export let step;
 </script>
 
+<!-- href={step.href} -->
+
 <a
-  href={step.href}
+  href="https://planit-right.vercel.app/"
   target="_blank"
   class="p-4 sm:p-6 md:p-8 flex flex-col gap-4
 rounded-lg border border-solid border-violet-700 text-center group
