@@ -1,11 +1,13 @@
 <script>
   export let step;
+  export let url = 'https://github.com/Osalira';
 </script>
 
 <!-- href={step.href} -->
+<!-- href="https://planit-right.vercel.app/"  -->
 
-<a
-  href="https://planit-right.vercel.app/"
+<a       
+  href={url} 
   target="_blank"
   class="p-4 sm:p-6 md:p-8 flex flex-col gap-4
 rounded-lg border border-solid border-violet-700 text-center group

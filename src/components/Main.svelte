@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name:"Smoljames Store", icon:"fa-solid fa-cart-shopping"},
-        {name: "Ultimate Todos", icon:"fa-solid fa-list-check"},
-        {name:"Pokedex", icon:"fa-solid fa-diagram-project"},
+        {name:"Smoljames Store", icon:"fa-solid fa-cart-shopping", url: ""},
+        {name: "Ultimate Todos", icon:"fa-solid fa-list-check", url: "https://planit-right.vercel.app/"},
+        {name:"Social Media", icon:"fa-solid fa-diagram-project", url: "https://github.com/Osalira/ChillWave"},
     ];
 
     let benefits = [
@@ -96,7 +96,7 @@
           > Commerce.js is a product CMS and Stripe is used for all transaction handling.
         </p>
       </Step> -->
-      <Step step={steps[1]}>
+      <Step step={steps[1]} url={steps[1].url}>
         <p>
           PlanItRight is a Full Stack
           <strong class="text-violet-400"
@@ -106,20 +106,20 @@
            persistence and real-time interaction. 
         </p>
       </Step>
-      <!-- <Step step={steps[2]}>
+      <Step step={steps[2]} url={steps[2].url}>
         <p>
-          The pokeddex is <strong class="text-violet-400"
-            >svelte & tailwindCss</strong
+          ChillWave is a <strong class="text-violet-400"
+            >React & Bootstrap</strong
           >
-          web application, hosted on
-          <strong class="text-violet-400">Netllify</strong>, that consumes and
-          caches
-          <strong class="text-violet-400">Pokemon API</strong>
+          web application that allows users to
+          <strong class="text-violet-400">Connect</strong> with people who share the 
+          same interests in the
+          <strong class="text-violet-400">Same City.</strong> Built with
           <strong class="text-violet-400"
-            >Next.js Commerce.js Stripe & Node.js + Express.js!</strong
-          > Commerce.js is a product CMS and Stripe is used for all transaction handling.
+            >React, Bootstrap, Css, HTML5, JavaScript and MongoDB</strong
+          > •	Users can post and comment on the posts of other users.
         </p>
-      </Step> -->
+      </Step>
     </div>
   </section>
   <section

@@ -13,13 +13,13 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center">
                     </sup>
             </a>
         </p>
-        <p><b class="pr-2">LinkedIn</b>
+        <!-- <p><b class="pr-2">LinkedIn</b>
             <a class="text-violet-400" target="_blank" href="https://www.linkedin.com/in/benjamin-osalira-2012162b0/">
                 Benjamin Osalira <sup>
                     <span class="text-xs scale-75 pl-0.5">
                     <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/></span>
                     </sup>
             </a>
-        </p>
+        </p> -->
     </div>
 </footer>
