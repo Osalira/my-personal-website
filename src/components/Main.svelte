@@ -42,7 +42,7 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         My <span class="text-violet-400">favorite tech</span> includes JavaScript
-        (React.js or Next.js), talwindCss, Node.js + Express.js & java, python3 !
+        , React.js/Next.js, PostgreSQL, MongoDB, Node.js + Express.js & java, python3 !
       </p>
       <!-- svelte-ignore a11y-missing-attribute -->
       <a
@@ -62,7 +62,7 @@
     <div class="relative shadow-2xl grid place-items-center">
       <!-- svelte-ignore a11y-img-redundant-alt -->
       <img
-        src={"images/profile5.png"}
+        src={"images/profile6.png"}
         alt="Logo image"
         class="object-cover z-[2] max-h-[70vh]"
       />
