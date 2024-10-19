@@ -62,7 +62,7 @@
     <div class="relative shadow-2xl grid place-items-center">
       <!-- svelte-ignore a11y-img-redundant-alt -->
       <img
-        src={"images/profile6.png"}
+        src={"images/profile7.png"}
         alt="Logo image"
         class="object-cover z-[2] max-h-[70vh]"
       />
