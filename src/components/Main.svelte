@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name:"Smoljames Store", icon:"fa-solid fa-cart-shopping", url: ""},
+        {name:"CareConnectED", icon:"fa-solid fa-user-md", url: "https://github.com/Osalira/CareConnectED"},
         {name: "Ultimate Todos", icon:"fa-solid fa-list-check", url: "https://planit-right.vercel.app/"},
-        {name:"Social Media", icon:"fa-solid fa-diagram-project", url: "https://github.com/Osalira/ChillWave"},
+        {name:"Social Media", icon:"fa-solid fa-users", url: "https://github.com/Osalira/ChillWave"},
     ];
 
     let benefits = [
@@ -35,7 +35,7 @@
         lg:gap-10"
     >
       <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-        Hi! I'm <span class="poppins text-violet-400">Benjamin</span> Osalira
+        Hi! I'm <span class="poppins text-violet-400">Ben</span> Osalira
         <br />
         Full Stack
         <span class="poppins text-violet-400">Developer</span>
@@ -59,14 +59,20 @@
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
     </div>
+     <!-- svelte-ignore a11y-img-redundant-alt -->
+    
     <div class="relative shadow-2xl grid place-items-center">
-      <!-- svelte-ignore a11y-img-redundant-alt -->
+      <!-- Fading Overlay with Dark Blue Gradient -->
+      <!-- <div class="absolute inset-0 bg-gradient-to-b from-blue-900 to-transparent opacity-80"></div> -->
+    
+      <!-- Profile Image -->
       <img
         src={"images/profile7.png"}
-        alt="Logo image"
-        class="object-cover z-[2] max-h-[70vh]"
+        alt="Profile image"
+        class="object-cover z-[2] max-h-[70vh] opacity-85"
       />
     </div>
+    
   </section>
   <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
     <div class="felx flex-col gap-2 text-center">
@@ -87,15 +93,15 @@
       <p>Wacth the videos</p>
     </a> -->
     <!-- "lg:grid-cols-3" is the class that's needed to have three projects side by side -->
-    <div class="grid grid-cols-1 lg:grid-cols gap-12 lg:gap-10">
-      <!-- <Step step={steps[0]}>
-        <p>
-          Smoljames stor is a merchandising store created innerWidth
-          <strong class="text-violet-400"
-            >Next.js Commerce.js Stripe & Node.js + Express.js!</strong
-          > Commerce.js is a product CMS and Stripe is used for all transaction handling.
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+      <Step step={steps[0]}>
+          <p>
+          CareConnectED is a <strong class="text-violet-400">Vue.js, Bootstrap, Django</strong> application designed to
+          <strong class="text-violet-400">enhance Emergency Department resources.</strong> It allows patients to check ED load,
+          register virtually, undergo virtual triage, and receive notifications for timely visits, easing overcrowding in
+          EDs.
         </p>
-      </Step> -->
+      </Step>
       <Step step={steps[1]} url={steps[1].url}>
         <p>
           PlanItRight is a Full Stack

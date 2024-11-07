@@ -16,3 +16,10 @@ h3,
 .poppins{
     font-family: 'Poppins', sans-serif;
 }
+
+img {
+  mask-image: radial-gradient(circle, rgba(17, 17, 54, 0.9), transparent 70%);
+  -webkit-mask-image: radial-gradient(circle, rgba(17, 17, 54, 0.9), transparent 70%);
+  -webkit-mask-image: linear-gradient(to top, rgba(17, 17, 54, 0.9), transparent);
+}
+ 
