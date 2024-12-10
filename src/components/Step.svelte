@@ -1,6 +1,6 @@
 <script>
   export let step;
-  export let url = 'https://github.com/Osalira';
+  export let url = 'https://youtu.be/XmqipexaleI';
 </script>
 
 <!-- href={step.href} -->

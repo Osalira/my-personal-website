@@ -2,9 +2,9 @@
     import Step from "./Step.svelte";
 
     let steps = [
-        {name:"CareConnectED", icon:"fa-solid fa-user-md", url: "https://github.com/Osalira/CareConnectED"},
-        {name: "Ultimate Todos", icon:"fa-solid fa-list-check", url: "https://planit-right.vercel.app/"},
-        {name:"Social Media", icon:"fa-solid fa-users", url: "https://github.com/Osalira/ChillWave"},
+        {name:"CareConnectED", icon:"fa-solid fa-user-md", url: "https://youtu.be/XmqipexaleI"},
+        {name: "Ultimate Todos", icon:"fa-solid fa-list-check", url: "https://youtu.be/XswkLOT3Brk"},
+        {name:"Social Platform", icon:"fa-solid fa-users", url: "https://github.com/Osalira/ChillWave"},
     ];
 
     let benefits = [
@@ -42,7 +42,7 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         My <span class="text-violet-400">favorite tech</span> includes JavaScript
-        , React.js/Next.js, PostgreSQL, MongoDB, Node.js + Express.js & java, python3 !
+        , React.js/Next.js, Vue.js, Django, Flask, PostgreSQL, MongoDB, Node.js + Express.js & java, python3 !
       </p>
       <!-- svelte-ignore a11y-missing-attribute -->
       <a
@@ -66,11 +66,11 @@
       <!-- <div class="absolute inset-0 bg-gradient-to-b from-blue-900 to-transparent opacity-80"></div> -->
     
       <!-- Profile Image -->
-      <img
-        src={"images/profile7.png"}
+      <!-- <img
+        src={"images/#"}
         alt="Profile image"
         class="object-cover z-[2] max-h-[70vh] opacity-85"
-      />
+      /> -->
     </div>
     
   </section>
@@ -104,13 +104,15 @@
       </Step>
       <Step step={steps[1]} url={steps[1].url}>
         <p>
-          PlanItRight is a Full Stack
-          <strong class="text-violet-400"
-            >Node.js + Express.js, EJS, MongoDB, JavaScript, CSS, and HTML!</strong
-          > featuring robust user authentication using Passport for Local OAuth and Google OAuth. 
-            It offers an intuitive interface for users to manage tasks efficiently, ensuring data 
-           persistence and real-time interaction. 
+          <strong>The Scheduler</strong> is a full-stack web application built with 
+          <strong class="text-violet-400">
+            React, Flask, PostgreSQL, JavaScript, CSS, and HTML!
+          </strong>
+          It features a visually dynamic drag-and-drop interface for users to organize their weekly tasks seamlessly. 
+          Designed for efficiency, it ensures real-time updates, data persistence, and an intuitive user experience 
+          tailored to maximize productivity.
         </p>
+        
       </Step>
       <Step step={steps[2]} url={steps[2].url}>
         <p>
