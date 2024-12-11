@@ -66,11 +66,11 @@
       <!-- <div class="absolute inset-0 bg-gradient-to-b from-blue-900 to-transparent opacity-80"></div> -->
     
       <!-- Profile Image -->
-      <!-- <img
-        src={"images/#"}
+      <img
+        src={"images/profileImg1.png"}
         alt="Profile image"
-        class="object-cover z-[2] max-h-[70vh] opacity-85"
-      /> -->
+        class="object-cover z-[1] max-h-[70vh] opacity-95"
+      />
     </div>
     
   </section>
